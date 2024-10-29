@@ -24,7 +24,7 @@ public class NonDomestic extends Animal{
     public String toString() {
         String base = super.toString();
         base += "\n Does this animal eat humans? " + getEatsHumans();
-        base += "\n Is this animal andangered? " + getEndangered();
+        base += "\n Is this animal endangered? " + getEndangered();
         base += "\n Does this animal hunt? " + getDoesHunt();
         base += "\n This animal lives in " + getHabitat();
         return base;

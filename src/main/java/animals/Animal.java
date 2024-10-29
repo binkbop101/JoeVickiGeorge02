@@ -14,6 +14,14 @@ public class Animal {
         this(0, "Unknown", 0, false);
     }
 
+    @Override
+    public String toString() {
+        String info = "This animal has " + this.getNoOfLegs() + " legs";
+        info += "\n it eats " + this.getFoodType();
+        info += "\n it is " + this.getAge() + " years old";
+        info += "\n is it female??..." + this.getIsFemale();
+         return info;
+    }
 
     // variables
     private int noOfLegs;
@@ -40,7 +48,7 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
-    public boolean isFemale() {
+    public boolean getIsFemale() {
         return isFemale;
     }
     public void setFemale(boolean female) {

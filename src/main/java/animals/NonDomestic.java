@@ -14,6 +14,23 @@ public class NonDomestic extends Animal{
         this(false, false, true, "unknown", 0, "unknown", 0, true);
     }
 
+
+    @Override
+    public String makeNoise() {
+        return "ROARRRRRRR!";
+    }
+
+    @Override
+    public String toString() {
+        String base = super.toString();
+        base += "\n Does this animal eat humans? " + getEatsHumans();
+        base += "\n Is this animal andangered? " + getEndangered();
+        base += "\n Does this animal hunt? " + getDoesHunt();
+        base += "\n This animal lives in " + getHabitat();
+        return base;
+    }
+
+
     // variables
     private Boolean eatsHumans;
     private Boolean isEndangered;

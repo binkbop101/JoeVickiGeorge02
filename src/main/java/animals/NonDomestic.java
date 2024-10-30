@@ -14,8 +14,7 @@ public class NonDomestic extends Animal{
         this(false, false, true, "unknown", 0, "unknown", 0, true);
     }
 
-
-    @Override
+    // methods
     public String makeNoise() {
         return "ROARRRRRRR!";
     }

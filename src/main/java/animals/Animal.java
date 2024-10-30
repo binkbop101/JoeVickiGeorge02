@@ -1,6 +1,6 @@
 package animals;
 
-public class Animal {
+public abstract class Animal {
 
     // constructor
     public Animal(int noOfLegs, String foodType, int age, boolean isFemale){
@@ -56,9 +56,7 @@ public class Animal {
     }
 
     // methods
-    public String makeNoise(){
-        return "Blahhhhh";
-    }
+    public abstract String makeNoise();
 
     public String eatFood(){
         return "Yummy! I love " + this.getFoodType();

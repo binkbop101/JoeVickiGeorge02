@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08fb7fd5-9460-468f-8326-5ea8458bdd41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animals/IActionable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animals/Domestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Domestic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animals/NonDomestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/NonDomestic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lbg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lbg/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

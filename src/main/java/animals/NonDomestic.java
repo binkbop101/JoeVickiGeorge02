@@ -1,6 +1,6 @@
 package animals;
 
-public class NonDomestic extends Animal{
+public class NonDomestic extends Animal implements IActionable{
     // constructors
     public NonDomestic(boolean eatsHumans, boolean isEndangered, boolean doesHunt, String habitat, int noOfLegs, String foodType, int age, boolean isFemale){
         super(noOfLegs, foodType, age, isFemale);
@@ -66,5 +66,15 @@ public class NonDomestic extends Animal{
 
     public void setDoesHunt(Boolean doesHunt) {
         this.doesHunt = doesHunt;
+    }
+
+    @Override
+    public String eatFood(){
+        return "Yummy! I love " + this.getFoodType();
+    }
+
+    @Override
+    public String move() {
+        return "I moved ~non-domestically~";
     }
 }

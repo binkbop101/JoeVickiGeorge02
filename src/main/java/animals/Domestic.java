@@ -1,6 +1,6 @@
 package animals;
 
-public class Domestic extends Animal {
+public class Domestic extends Animal implements IActionable{
 
     // constructors
     public Domestic(boolean requiresExercise, boolean isTrained, String ownerName, String petName, int noOfLegs, String foodType, int age, boolean isFemale) {
@@ -72,5 +72,13 @@ public class Domestic extends Animal {
         this.petName = petName;
     }
 
+
+    @Override
+    public String move() {
+        return "I moved ~domestically~";
+    }
+    public String eatFood(){
+        return "Yummy! I love " + this.getFoodType();
+    }
 
 }

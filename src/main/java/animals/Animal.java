@@ -58,8 +58,4 @@ public abstract class Animal {
     // methods
     public abstract String makeNoise();
 
-    public String eatFood(){
-        return "Yummy! I love " + this.getFoodType();
-    }
-
 }

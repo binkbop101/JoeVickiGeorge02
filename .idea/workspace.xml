@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08fb7fd5-9460-468f-8326-5ea8458bdd41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/IActionable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animals/Domestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Domestic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animals/NonDomestic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/NonDomestic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/lbg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lbg/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/JoeVickiGeorge02&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/code/carDemo2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\code\JoeVickiGeorge02\src\main\java\animals" />

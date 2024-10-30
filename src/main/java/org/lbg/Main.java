@@ -20,5 +20,14 @@ public class Main {
             System.out.println(a.makeNoise());
         }
 
+        NonDomestic nd2 = new NonDomestic(false,false,false,"Jungle", 4, "Apples", 10, true);
+        Domestic d2 = new Domestic(true, true, "George", "Joe", 4, "Popcorn", 22, false);
+
+        System.out.println(nd2);
+        System.out.println(nd2.move());
+        System.out.println(nd2.eatFood());
+        System.out.println(d2);
+        System.out.println(d2.move());
+        System.out.println(d2.eatFood());
     }
 }
